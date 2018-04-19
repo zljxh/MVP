@@ -77,7 +77,11 @@ public class MyProgressBar extends Dialog {
     }
 
     public void setMsg(String msg) {
-//        this.msg.setText(msg);
+        this.msg.setText(msg);
+    }
+
+    public void setMsg(int msg) {
+        this.msg.setText(msg);
     }
 
 }
